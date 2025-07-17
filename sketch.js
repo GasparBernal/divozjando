@@ -21,7 +21,7 @@ const HIGH_FREQ_MIN = 100;
 
 // Variables mejoradas para reinicio vocal
 let highFreqFrames = 0;
-const HIGH_FREQ_THRESHOLD = 5; // 0.5 segundos a 60fps
+const HIGH_FREQ_THRESHOLD = 15; // 0.5 segundos a 60fps
 const HIGH_FREQ_ENERGY_THRESHOLD = 80; // Más bajo para mejor detección
 const VOICE_RANGE_START = 2000;
 const VOICE_RANGE_END = 5000; // Rango más específico para voces
